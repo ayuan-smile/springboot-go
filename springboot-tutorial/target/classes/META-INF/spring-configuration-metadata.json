@@ -1,0 +1,37 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.smile.boot.config.MyProps",
+      "name": "my-props",
+      "type": "com.smile.boot.config.MyProps"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.smile.boot.config.MyProps",
+      "name": "my-props.array-props",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "com.smile.boot.config.MyProps",
+      "name": "my-props.list-prop1",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.String>>"
+    },
+    {
+      "sourceType": "com.smile.boot.config.MyProps",
+      "name": "my-props.list-prop2",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.smile.boot.config.MyProps",
+      "name": "my-props.map-props",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "com.smile.boot.config.MyProps",
+      "name": "my-props.simple-prop",
+      "type": "java.lang.String"
+    }
+  ]
+}
